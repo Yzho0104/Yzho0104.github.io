@@ -1,0 +1,65 @@
+body {
+	height: 100%;
+	width: 100%;
+	background: url("../images/bg-1.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	float: left;
+}f
+
+a {
+	color:red;
+}
+
+div.Name {
+	width: 100%;
+	height: 10%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+	font-size: 75px;
+	color: rgb(227, 236, 255);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+div.Myword {
+	width: 50%;
+	height: 10%;
+	font-family: fantasy;	
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+	text-align: center;   
+	opacity: 0.7;
+	margin-top: 15%;
+	margin-left: 25%;
+}
+
+div.Homework {
+	width: 100%;
+	height: 10%;
+	font-family: fantasy;	
+	font-size: 40px;
+	background-color: aliceblue;
+	opacity: 0.7;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	padding-left: 2%;
+	padding-top: 2%;
+	text-decoration: underline;    
+	margin-top: 20%;
+	display: flex;
+	justify-content: space-around;	
+}
+
+div.Contact {
+	width: 100%;
+	color: rgb(232, 226, 247);
+	font-size: x-large;
+	text-align: center;
+	font-family: cursive;
+    margin-top: 10%;
+	margin-bottom: 10%;
+}
+
