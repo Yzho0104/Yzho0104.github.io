@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        @font-face {
+            font-family: op;
+            src: url("css/Optima_Medium.ttf");
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .header{
+            display: flex;
+            width: 80%;
+            height: 100px;
+            margin: 0 auto;
+            border-bottom: 8px #ababab  solid;
+        }
+        .h_tl{
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            width: 200px;
+            line-height: 100px;
+        }
+        .h_nav{
+            width: 1000px;
+        }
+        .h_nav li{
+            width: 14.28%;
+            font-family: op;
+            float: left;
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            line-height: 100px;
+        }
+        .h_nav a li:hover{
+            color: red;
+        }
+        .list{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .list_wrap{
+            display: flex;
+            margin-top: 30px;
+        }
+        .list_wrap_img{
+            flex: 1;
+        }
+        .list_wrap_img:nth-child(2){
+            margin:0 10px;
+        }
+        .list_ts{
+            font-family: op;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="h_tl">
+            SCP 
+        </div>
+        <ul class="h_nav">
+            <a href="">
+                <li>Home</li>
+            </a>
+            <a href="">
+                <li>About</li>
+            </a>
+            <a href="">
+                <li>Thinking</li>
+            </a>
+            <a href="">
+                <li>Camouflage</li>
+            </a>
+            <a href="">
+                <li>SCP-Classes</li>
+            </a>
+            <a href="">
+                <li>SCP</li>
+            </a>
+            <a href="">
+                <li>Others</li>
+            </a>
+        </ul>
+    </div>
+    <div class="list">
+         <div class="list_wrap">
+            <div class="list_wrap_img">
+                <img src="images/scp.jpg" alt="">
+            </div>
+            <div class="list_wrap_img">
+                <img src="images/scp.jpg" alt="">
+            </div>
+            <div class="list_wrap_img">
+                <img src="images/scp.jpg" alt="">
+            </div>
+         </div>
+         <div class="list_ts">
+            dafasdfasdfasdfasdfasdfadfadfasdfasdfasdfasdfasdfasdfasdfdafasdfasdfasdfasdfasdfadfadfasdfasdfasdfasdfasdfasdfas
+         </div>
+    </div>
+</body>
+</html>
