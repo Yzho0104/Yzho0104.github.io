@@ -1,0 +1,766 @@
+#index1 {
+  padding: 30px;
+}
+#index1 .box .tl {
+  font-size: 14px;
+  line-height: 40px;
+  color: #333;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+#index1 .box .tc {
+  text-align: center;
+  color: #333;
+  line-height: 90px;
+}
+#index1 .box h1 {
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  font-size: 60px;
+}
+#index1 .box .btnline {
+  text-align: center;
+  padding: 30px 0;
+}
+#index1 .box .btnline a {
+  font-size: 18px;
+  line-height: 60px;
+  padding: 0 20px;
+}
+#index1 .box img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+#page1 {
+  background-color: #c0d5d3;
+}
+#page1 > .fl {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+#page1 > .fl .box {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#page1 .leftbox {
+  width: 75%;
+  position: relative;
+}
+#page1 .leftbox .leftbar {
+  position: absolute;
+  width: 10%;
+  height: 80vh;
+  top: 50%;
+  background-color: #fff;
+  margin-top: -40vh;
+}
+#page1 .leftbox .box h1 {
+  font-size: 40px;
+  line-height: 90px;
+  font-weight: bold;
+  text-align: left;
+}
+#page1 .leftbox .box p a {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  line-height: 60px;
+  color: #333;
+}
+#page1 .rightbox {
+  background-color: #fff;
+  width: 25%;
+}
+#page1 .rightbox .box {
+  background-color: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+  position: absolute;
+  left: -75%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#page1 .rightbox .box h2 {
+  font-size: 24px;
+  line-height: 40px;
+}
+#page1 .rightbox .box img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 30px auto;
+}
+#page1 .rightbox .box p {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+#page1 .rightbox .box .desc {
+  padding: 30px 0;
+}
+#aboutscp .box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#aboutscp .box > .fl {
+  width: 50%;
+}
+#aboutscp .box > .fl img {
+  max-height: 80vh;
+  max-width: 80%;
+  display: block;
+  margin: 10vh auto;
+}
+#aboutscp .box .rightbox {
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+#aboutscp .box .rightbox .toptxt {
+  font-size: 14px;
+  line-height: 40px;
+  text-align: left;
+  color: #333;
+}
+#aboutscp .box .rightbox .txt {
+  margin: 30px 0;
+  padding-top: 30px;
+  border-top: 1px solid #333;
+  width: 50%;
+  text-align: left;
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+#aboutscp .box .rightbox .contxt .fl {
+  width: 50%;
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: justify;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#simple .box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#simple .box > .fl {
+  width: 50%;
+}
+#simple .box > .fl img {
+  max-height: 80vh;
+  max-width: 80%;
+  display: block;
+  margin: 10vh auto;
+}
+#simple .box .leftbox {
+  background-color: #c2d4d4;
+  height: 100%;
+}
+#simple .box .rightbox {
+  padding-right: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+#simple .box .rightbox .toptxt {
+  font-size: 14px;
+  line-height: 40px;
+  text-align: left;
+  color: #333;
+}
+#simple .box .rightbox .txt {
+  margin: 30px 0;
+  padding-top: 30px;
+  border-top: 1px solid #333;
+  width: 50%;
+  text-align: left;
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+#simple .box .rightbox .contxt .fl {
+  width: 33%;
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: justify;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#camouflage .box {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+#camouflage .box .leftbox {
+  width: 75%;
+}
+#camouflage .box .leftbox .mainbox {
+  padding: 30px;
+  box-sizing: border-box;
+}
+#camouflage .box .leftbox .mainbox h1 {
+  padding-bottom: 30px;
+}
+#camouflage .box .leftbox img {
+  display: block;
+  width: 100%;
+}
+#camouflage .box .leftbox .toptxt {
+  font-size: 14px;
+  line-height: 40px;
+  text-align: left;
+  color: #333;
+}
+#camouflage .box .leftbox .txt {
+  margin: 30px 0;
+  padding-top: 30px;
+  border-top: 1px solid #333;
+  width: 50%;
+  text-align: left;
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+#camouflage .box .leftbox .contxt .fl:nth-child(4) {
+  border-top: 1px solid #333;
+}
+#camouflage .box .leftbox .contxt .fl {
+  width: 25%;
+  font-size: 12px;
+  padding: 30px 10px;
+  text-align: justify;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#camouflage .box .rightbox {
+  padding-right: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  width: 25%;
+  background-color: #c2d4d4;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#camouflage .box .rightbox .mainbox .tit {
+  font-size: 14px;
+  line-height: 40px;
+  text-align: left;
+  color: #333;
+  font-weight: bold;
+}
+#camouflage .box .rightbox .mainbox .desc {
+  font-size: 12px;
+  line-height: 24px;
+  text-align: left;
+  color: #333;
+}
+#toaddress {
+  position: relative;
+}
+#toaddress .downline {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  height: 160px;
+  z-index: -1;
+  width: 100%;
+  background-color: #c2d4d4;
+}
+#toaddress .box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+#toaddress .box > .fl {
+  width: 50%;
+}
+#toaddress .box > .fl img {
+  max-height: 110vh;
+  max-width: 80%;
+  display: block;
+  margin: 10vh auto;
+}
+#toaddress .box .leftbox {
+  display: flex;
+}
+#toaddress .box .leftbox img {
+  height: 90%;
+}
+#toaddress .box .rightbox {
+  padding-right: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+#toaddress .box .rightbox h1 {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #333;
+}
+#toaddress .box .rightbox .toptxt {
+  font-size: 14px;
+  line-height: 40px;
+  text-align: left;
+  color: #333;
+}
+#toaddress .box .rightbox .txt {
+  margin: 30px 0;
+  padding-top: 30px;
+  border-top: 1px solid #333;
+  width: 50%;
+  text-align: left;
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+#toaddress .box .rightbox .contxt {
+  padding-top: 30px;
+}
+#toaddress .box .rightbox .contxt .fl {
+  width: 33%;
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: justify;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#toaddress .box .rightbox .pngbox {
+  flex-wrap: nowrap;
+}
+#user {
+  border: 40px solid #c2d4d4;
+}
+#user .box {
+  box-sizing: border-box;
+  width: calc(100vw - 80px);
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#user .box > .fl {
+  width: 50%;
+}
+#user .box > .fl img {
+  width: 200px;
+  display: block;
+  margin: 30px auto;
+}
+#user .box > .fl .name {
+  color: #333;
+  font-size: 16px;
+}
+#user .box > .fl .small {
+  font-size: 12px;
+  color: #333;
+}
+#user .box > .fl .desc {
+  font-size: 14px;
+  line-height: 30px;
+  color: #333;
+  padding: 30px;
+}
+#user .box .rightbox {
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+#user .box .rightbox .mainbox {
+  display: flex;
+  align-items: center;
+}
+#user .box .rightbox .mainbox h1 {
+  text-align: center;
+  line-height: 120px;
+}
+#scpclasses .box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+#scpclasses .box > .fl {
+  width: 50%;
+}
+#scpclasses .box > .fl img {
+  max-height: 80vh;
+  max-width: 80%;
+  display: block;
+  margin: 10vh auto;
+}
+#scpclasses .box .leftbox {
+  display: flex;
+}
+#scpclasses .box .leftbox img {
+  height: 90%;
+}
+#scpclasses .box .rightbox {
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+#scpclasses .box .rightbox .toptit {
+  background-color: #c2d4d4;
+  padding: 120px 30px 30px 180px;
+}
+#scpclasses .box .rightbox .toptit h1 {
+  padding-bottom: 30px;
+}
+#scpclasses .box .rightbox .toptit .toptxt {
+  font-size: 14px;
+  line-height: 40px;
+  text-align: left;
+  color: #333;
+}
+#scpclasses .box .rightbox .txt {
+  margin: 30px 0;
+  padding-top: 30px;
+  width: 50%;
+  text-align: left;
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+#scpclasses .box .rightbox .contxt {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#scpclasses .box .rightbox .contxt .fl:first-child {
+  border-top: 1px solid #333;
+}
+#scpclasses .box .rightbox .contxt .fl {
+  width: 33%;
+  font-size: 12px;
+  padding: 30px 10px;
+  text-align: justify;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#scp .box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  position: relative;
+}
+#scp .box .leftline {
+  position: absolute;
+  left: 0;
+  width: 10%;
+  z-index: -1;
+  bottom: 0;
+  background-color: #c2d4d4;
+  min-height: 100vh;
+  top: 0;
+}
+#scp .box .leftbox {
+  padding-right: 240px;
+  box-sizing: border-box;
+}
+#scp .box .leftbox .contxt {
+  border-top: 1px solid #333;
+  margin-left: 200px;
+  margin-top: 120px;
+}
+#scp .box .leftbox .contxt .fr {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #333;
+  padding-bottom: 40px;
+  width: 200px;
+}
+#scp .box .leftbox img {
+  max-height: 80vh;
+  max-width: 80%;
+  display: block;
+  margin: 10px auto;
+}
+#scp .box > .fl {
+  width: 50%;
+}
+#scp .box .rightbox {
+  padding-right: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+#scp .box .rightbox .mainbox {
+  padding-bottom: 120px;
+}
+#scp .box .rightbox .toptxt {
+  font-size: 14px;
+  line-height: 40px;
+  color: #333;
+  margin-top: 30px;
+}
+#scp .box .rightbox .txt {
+  margin: 30px 0;
+  padding-top: 30px;
+  border-top: 1px solid #333;
+  width: 50%;
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+#scp .box .rightbox .contxt .fl {
+  width: 33%;
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: justify;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#scp .box .rightbox h1 {
+  padding-bottom: 30px;
+}
+#scp .box .rightbox .topbox {
+  margin: 0 auto 30px auto;
+  width: 400px;
+  height: 120px;
+  background-color: #c2d4d4;
+}
+#scp .box .rightbox .bottombox {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -200px;
+  width: 400px;
+  height: 120px;
+  background-color: #c2d4d4;
+}
+#scp2 .box {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#scp2 .box > .fl {
+  width: 50%;
+}
+#scp2 .box > .fl img {
+  max-height: 80vh;
+  max-width: 80%;
+  display: block;
+  margin: 10vh auto;
+}
+#scp2 .box .leftbox {
+  height: 100%;
+  position: relative;
+}
+#scp2 .box .leftbox .mainright {
+  background-color: #c2d4d4;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 50%;
+  margin-top: -100px;
+}
+#scp2 .box .rightbox {
+  padding-right: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+#scp2 .box .rightbox .mainleft {
+  background-color: #c2d4d4;
+  width: 40px;
+  height: 200px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 50%;
+  margin-top: -100px;
+}
+#scp2 .box .rightbox .toptxt {
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+}
+#scp2 .box .rightbox h1 {
+  text-align: center;
+}
+#scp2 .box .rightbox .txt {
+  margin: 30px auto;
+  padding-top: 30px;
+  border-top: 1px solid #333;
+  width: 50%;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+#scp3 .box {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+#scp3 .box > .fl {
+  width: 50%;
+}
+#scp3 .box .leftbox {
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+#scp3 .box .leftbox img {
+  max-height: 80vh;
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+#scp3 .box .rightbox {
+  padding-right: 30px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+#scp3 .box .rightbox .toptxt {
+  border-top: 1px solid #333;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: left;
+  color: #333;
+  padding-bottom: 30px;
+  width: 60%;
+}
+#scp3 .box .rightbox .txt {
+  margin: 30px 0;
+  padding-top: 30px;
+  border-top: 1px solid #333;
+  width: 50%;
+  text-align: left;
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+#scp3 .box .rightbox .contxt .fl {
+  width: 33%;
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: justify;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+#scp4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+#scp4 .topline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+  background-color: #c2d4d4;
+}
+#scp4 .box {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#scp4 .box > .fl {
+  width: 33%;
+}
+#scp4 .box > .fl img {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+#scp4 .box .mainbox {
+  padding: 30px;
+  box-sizing: border-box;
+}
+#scp4 .box .mainbox .toptxt {
+  text-align: left;
+  font-size: 12px;
+  color: #333;
+}
+#scp4 .box .mainbox h1 {
+  padding-bottom: 30px;
+  padding-bottom: 120px;
+}
+#scp4 .box .mainbox .contxt {
+  padding-top: 80px;
+  border-top: 1px solid #333;
+  font-size: 12px;
+  color: #333;
+  text-align: left;
+}
+#scp4 .box .contxt {
+  padding-top: 310px;
+}
+#scp4 .box .contxt .fl {
+  width: 50%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 24px;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background-color: #c2d4d4;
+}
+#footer .centerbox {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+#footer .centerbox .line {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+#footer .centerbox .line a {
+  padding: 0 30px;
+  font-size: 24px;
+  line-height: 90px;
+  height: 90px;
+  display: inline-block;
+  color: #333;
+}
