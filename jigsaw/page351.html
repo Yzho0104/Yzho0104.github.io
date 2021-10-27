@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src='./js/jquery.min.js'></script>
+</head>
+
+<body id="article">
+    <a class="box1 box" href="./page2.html"><img src="./images/1.png" alt=""></a>
+    <h2>Jigsaw Puzzles Gallery</h2>
+    <div class="pngbox fn-clear details-bd pdtop">
+        <div class="fl lists">
+            <div class="png list">
+                <img src="./images/g1.jpg" alt="">
+            </div>
+        </div>
+        <div class="fl lists">
+            <div class="png list">
+                <img src="./images/g2.jpg" alt="">
+            </div>
+        </div>
+        <div class="fl lists">
+            <div class="png list">
+                <img src="./images/g3.jpg" alt="">
+            </div>
+        </div>
+        <div class="fl lists">
+            <div class="png list">
+                <img src="./images/g4.jpg" alt="">
+            </div>
+        </div>
+        <a href="./page352.html" class="more">Learn more</a>
+    </div>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script type="text/javascript" src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script>
+        $(function () {
+            $(".details-bd img").each(function (i) {
+                if (!this.parentNode.href) {
+                    $(this).wrap("<a href='" + this.src + "' data-fancybox='fancybox' data-caption='" + this.alt + "'></a>")
+                }
+            })
+        });
+        $(document).ready(function () {
+            $("[data-fancybox]").fancybox()
+        });
+
+    </script>
+</body>
+
+</html>

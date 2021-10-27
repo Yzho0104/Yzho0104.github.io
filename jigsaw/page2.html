@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src='./js/jquery.min.js'></script>
+</head>
+
+<body id="page2">
+    <a class="box1 box" href="./index.html"><img src="./images/1.png" alt=""></a>
+    <div class="box2 box"><img src="./images/2.png" alt=""></div>
+    <div class="box3 box"><img src="./images/3.png" alt=""></div>
+    <div class="box4 box"><img src="./images/4.png" alt=""></div>
+    <div class="box5 box"><img src="./images/5.png" alt=""></div>
+    <div class="box6 box"><img src="./images/start2.png" alt=""></div>
+    <div class="shadowbox">
+        <div class="close">
+            <img src="./images/close.png" alt="">
+        </div>
+        <div class="pngbox png1" id="png1"></div>
+        <div class="pngbox png2" id="png2"></div>
+    </div>
+    <script>
+        var left1 = 0;
+        var top1 = 0;
+        var left2 = 0;
+        var top2 = 0;
+        var index = 0;
+        $(function () {
+            $('.box').on('click', function () {
+                if ($(this).hasClass('box2')) {
+                    index = 1;
+                } else if ($(this).hasClass('box3')) {
+                    index = 2
+                } else if ($(this).hasClass('box4')) {
+                    index = 3
+                } else if ($(this).hasClass('box5')) {
+                    index = 4
+                } else if ($(this).hasClass('box6')) {
+                    index = 5
+                }
+                $('.shadowbox').css({ 'width': 0, 'height': 0, 'display': 'block', opacity: 0 }).animate({ 'width': '100%', 'height': '100%', opacity: 1 })
+            })
+            $('.close').on('click', function () {
+                $('.shadowbox').animate({ 'width': 0, 'height': 0, opacity: 0 }).fadeOut();
+            })
+            left1 = $('.png1').css('left').split('px')[0] * 1;
+            left2 = $('.png2').css('left').split('px')[0] * 1;
+            top1 = $('.png1').css('top').split('px')[0] * 1;
+            top2 = $('.png2').css('top').split('px')[0] * 1;
+            console.log(left1)
+            console.log(left2)
+            console.log(top1)
+            console.log(top2)
+            $('#png1').css({ 'left': left1 + 'px', 'top': top1 + 'px' })
+            $('#png2').css({ 'left': left2 + 'px', 'top': top2 + 'px' })
+            function move(className) {
+                var isMove = false;
+                var X, Y;
+                $("." + className).click(function () {
+                }).mousedown(function (e) {
+                    isMove = true;
+                    X = e.pageX - parseInt($("#" + className).css("left"));
+                    Y = e.pageY - parseInt($("#" + className).css("top"));
+                });
+                $(document).mousemove(function (e) {
+                    if (isMove) {
+                        var left = e.pageX - X;
+                        var top = e.pageY - Y;
+                        $("#" + className).css({ left: left, top: top });
+                        if (className == "png1") {
+                            left1 = left
+                            top1 = top
+                        } else if (className == "png2") {
+                            left2 = left
+                            top2 = top
+                        }
+                    }
+                }).mouseup(function () {
+                    isMove = false;
+                    exit(left1, top1, left2, top2)
+                });
+            }
+            move('png1')
+            move('png2')
+            function exit(left1, top1, left2, top2) {
+                if ((left2 - left1) < 200
+                    && (left2 - left1) > 90
+                    && Math.abs(top1 - top2) < 10
+                ) {
+
+                    if (index == 1) {
+                        window.location.href = './page31.html';
+                    } else if (index == 2) {
+                        window.location.href = './page33.html';
+                    } else if (index == 3) {
+                        window.location.href = './page34.html';
+                    } else if (index == 4) {
+                        window.location.href = './page351.html';
+                    } else if (index == 5) {
+                        window.location.href = './page32.html';
+                    }
+                }
+
+            }
+        })
+    </script>
+</body>
+
+</html>

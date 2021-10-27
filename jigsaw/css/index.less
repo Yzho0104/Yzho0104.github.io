@@ -1,0 +1,297 @@
+#index {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent url('./../images/bj.jpg') no-repeat top scroll;
+  background-size: cover;
+
+  h1 {
+    font-size: 90px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+  }
+}
+
+#page2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: orange;
+
+  .box {
+    position: absolute;
+    color: transparent;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .box1 {
+
+    width: 10vw;
+    right: 2vw;
+    top: 2vw;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .box2 {
+    left: 12vw;
+    bottom: 3vw;
+    width: 18vw;
+  }
+
+  .box3 {
+    left: 34vw;
+    bottom: 3vw;
+    width: 22vw;
+  }
+
+  .box4 {
+    left: 20vw;
+    bottom: 30vw;
+    width: 18vw;
+  }
+
+  .box5 {
+    left: 60vw;
+    bottom: 3vw;
+    width: 18vw;
+  }
+
+  .box6 {
+    left: 50vw;
+    bottom: 30vw;
+    width: 20vw;
+  }
+}
+
+/* 文章 */
+#article {
+  width: 1024px;
+  display: block;
+  margin: auto;
+
+  .box1 {
+    position: absolute;
+    width: 10vw;
+    right: 2vw;
+    top: 2vw;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  h2 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .png {
+    width: 60%;
+    margin: 30px auto;
+    display: block;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .desc {
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+    text-align: left;
+    padding: 10px 0;
+    text-align: justify;
+  }
+
+  .contit {
+
+    .time,
+    .h2 {
+      display: inline-block;
+    }
+
+    .time {
+      font-size: 16px;
+      text-align: right;
+      vertical-align: bottom;
+      margin-top: 70px;
+    }
+  }
+
+  .conbox {
+    .left {
+      width: 400px;
+
+      iframe {
+        width: 400px;
+        height: 400px;
+      }
+
+      .desc {}
+    }
+
+    .right {
+      width: 600px;
+    }
+  }
+}
+
+.pngbox {
+  .fl {
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+
+    .png {
+      display: block;
+      width: 80%;
+      margin: auto;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* 开始图片拖动 */
+.startpng {
+  width: 100px;
+
+  img {
+    width: 100%;
+  }
+
+  .start1 {
+    position: fixed;
+    left: 50px;
+    bottom: 240px;
+    width: 100px;
+    cursor: pointer;
+    height: 183px;
+    background: transparent url('./../images/start1.png') no-repeat top scroll;
+    background-size: 100px 183px;
+    color: transparent;
+    z-index: 999;
+  }
+
+  .start2 {
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    width: 140px;
+  }
+}
+
+.shadowbox {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  display: none;
+  transform: translate(-50%, -50%);
+
+  .close {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 30px;
+    top: 30px;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+}
+
+.png1,
+.png2 {
+  color: transparent;
+}
+
+@media screen and (min-width:900px) {
+  .png1 {
+    position: absolute;
+    background-size: 200px 219px;
+    background: transparent url('./../images/c1.png') no-repeat top scroll;
+    background-size: cover;
+    width: 200px;
+    height: 219px;
+    left: 300px;
+    top: 200px;
+  }
+
+  .png2 {
+    position: absolute;
+    background: transparent url('./../images/c2.png') no-repeat top scroll;
+    background-size: cover;
+    width: 200px;
+    height: 219px;
+    left: 800px;
+    top: 200px;
+  }
+}
+
+@media screen and(min-width:1200px) {
+  .png1 {
+    position: absolute;
+    background-size: 200px 219px;
+    background: transparent url('./../images/c1.png') no-repeat top scroll;
+    background-size: cover;
+    width: 200px;
+    height: 219px;
+    left: 500px;
+    top: 200px;
+  }
+
+  .png2 {
+    position: absolute;
+    background: transparent url('./../images/c2.png') no-repeat top scroll;
+    background-size: cover;
+    width: 200px;
+    height: 219px;
+    left: 1100px;
+    top: 200px;
+  }
+
+
+}
+
+.learnmore {
+  padding: 30px 0;
+
+  a {
+    font-size: 40px;
+    margin: 0 30px;
+    padding: 0 10px;
+    font-weight: bold;
+  }
+}

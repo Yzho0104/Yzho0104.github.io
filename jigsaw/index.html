@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/functions.less">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/functions.min.js"></script>
+</head>
+
+<body id="index">
+    <h1>Jigsaw puzzles</h1>
+    <div class="startpng">
+        <div class="start1" id="div1"></div>
+        <div class="start2"><img src="./images/start2.png" alt=""></div>
+    </div>
+    <script>
+        var height = $('.start2').css('top').split('px')[0] * 1;
+        var left1 = 0;
+        var top1 = 0;
+        move("div1")
+        function move(className) {
+            var isMove = false;
+            var X, Y;
+            $("#" + className).click(function () {
+            }).mousedown(function (e) {
+                isMove = true;
+                X = e.pageX - parseInt($("#" + className).css("left"));
+                Y = e.pageY - parseInt($("#" + className).css("top"));
+            });
+            $(document).mousemove(function (e) {
+                if (isMove) {
+                    var left = e.pageX - X;
+                    var top = e.pageY - Y;
+                    $("#" + className).css({ left: left, top: top });
+                    left1 = left
+                    top1 = top
+                }
+            }).mouseup(function () {
+                isMove = false;
+                if (left1 > 40 && left1 < 60 && (height - top1) < 200) {
+                    window.location.href = './page2.html';
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
