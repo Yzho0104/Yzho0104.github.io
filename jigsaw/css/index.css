@@ -263,7 +263,8 @@ video{
   font-size: 25px;
 }
 .botTx{
-  font-size: 20px;
+  font-size: 5px;
+  margin-top: 50px;
 }
 .topTx1{
   position: absolute;
